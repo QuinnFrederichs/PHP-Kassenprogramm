@@ -1,0 +1,159 @@
+<style type="text/css" title="text/css" media="screen"> 
+.platzhalter {
+	/* drin lasssen weil sonst die erste klasse nicht beachtet wird !???!??! */
+}
+body {
+	padding: 0px;
+	margin: 0px;
+    font-family: Sans-Serif;
+    letter-spacing: 0.1em;
+	background-color:;
+}
+table{
+    border-collapse: separate;
+    /*border-spacing: 0em 0.05em ;*/  
+    border-spacing: 0em ;  
+	background-color:#cdcdcd;
+	color:black;
+	marhin:0px;
+	border-top: 0.05em solid black;
+	border-left: 0.05em solid black;
+}    
+th, td { 
+	font-family: Sans-Serif;
+    padding: 0.3em 0.4em 0.3em 0.4em;
+    font-size: 1.1em;
+    border-bottom: 0.05em solid black;
+    border-right: 0.05em solid #333333;
+}
+h2 {
+	font-family: Sans-Serif;
+    padding: 0.1em 0.2em 0.1em 0.2em ;
+    margin:  0.1em 0.0em 1.0em 10.2em ;
+    font-size: 2em;
+    border-style: solid ;
+    border-width: 0.1em;
+    border-top: 0.2em solid red;
+    border-right: 0.1em solid red;
+    border-bottom: 0.2em solid red;
+    border-left: 0.2em solid red;
+}
+input, label { 
+	font-family: Sans-Serif;
+    padding: 0.1em 0.2em 0.1em 0.2em ;
+    font-size: 2em;
+    border-style: solid ;
+    border-top: 0.1em solid grey;
+    border-right: 0.1em solid grey;
+    border-bottom: 0.1em solid grey;
+    border-left: 0.1em solid grey;
+}
+label {
+	background-color: grey;
+}
+select  { 
+	font-family: Sans-Serif;
+    padding: 0.1em 0.2em 0.1em 0.2em ;
+    font-size: 1.95em;
+    border-style: solid ;
+    border-top: 0.2em solid red;
+    border-right: 0.0em solid red;
+    border-bottom: 0.2em solid red;
+    border-left: 0.0em solid red;
+}
+option {  
+    padding: 0em ; 
+    border-style: solid ;
+    border: 0.0em solid red;    
+}             
+input[type=submit] { 
+    background-color: blue;
+    color: white;
+}  
+a {  
+    font-size: 1.4em;
+    text-decoration:none;
+}
+.anzag {
+	background-color:yellow;
+	color:black;
+}
+.anzag:link {
+	background-color:yellow;
+	color:black;
+}
+.anzag:visited {
+	background-color:yellow;
+	color:black;
+}
+.phoenix {
+	background-color:green;
+	color:white;
+}
+.phoenix:link {
+	color:white;
+}    
+.phoenix:visited {
+	color:white;
+}
+.lager {
+	background-color:blue;
+	color:white;
+}
+.lager:link {
+	color:white;
+}    
+.lager:visited {
+	color:white;
+}
+.active {
+	border-top-color:blue;
+	border-bottom-color:blue;
+}
+.red {
+	color:white;
+	background-color:red;
+}
+.orange {
+	color:black;
+	background-color:orange;
+}
+.white {
+	color:black;
+	background-color:white;
+}
+.white:link {
+	color:red; 
+	font-weight: bold;
+}.white:visited {
+	color:black; 
+	font-weight: bold;
+}
+.wabe {
+	color:black;
+	padding: 0.3em 0.4em 0.3em 0.4em;
+	font-size: 1.1em;
+	background-color: #cdcdcd;
+    border: 0.05em solid #333333;	
+    margin: 0px;
+}
+.mainBox {
+	width:30em;
+	height:8em;
+	float: left;
+	padding:0.4em;
+	margin:0.1em;
+	overflow:hidden;
+}
+.redBox { 
+	font-family: Sans-Serif;
+    padding:0em ;
+    border-style: solid ;
+    border-top: 0.2em solid red;
+    border-right: 0.1em solid red;
+    border-bottom: 0.2em solid red;
+    border-left: 0.2em solid red;
+    width: auto;
+    display: inline-block;
+}
+</style>
